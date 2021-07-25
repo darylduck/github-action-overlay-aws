@@ -1,0 +1,19 @@
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+
+    10%, 90% {
+        opacity: 1;
+    }
+}
+
+.build-status {
+    flex: 1 0 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;    
+    opacity: 0;
+    animation-name: fadeInOut;
+}
